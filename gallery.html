@@ -1,0 +1,30 @@
+---
+layout: application
+title: HOOYAH Paintball
+---
+<h2>Gallery</h2>
+<hr/>
+<p>Click on an image to view a larger version.</p>
+<a class="photo_shot" href="images/gallery/IMG_0555.jpg"><img src="images/gallery/IMG_0555_thumb.jpg" alt=""/></a>
+<a class="photo_shot" href="images/gallery/IMG_0430.jpg"><img src="images/gallery/IMG_0430_thumb.jpg" alt=""/></a>
+<a class="photo_shot" href="images/gallery/IMG_0535.jpg"><img src="images/gallery/IMG_0535_thumb.jpg" alt=""/></a>
+<a class="photo_shot" href="images/gallery/IMG_0516.jpg"><img src="images/gallery/IMG_0516_thumb.jpg" alt=""/></a>
+<a class="photo_shot" href="images/gallery/IMG_0470.jpg"><img src="images/gallery/IMG_0470_thumb.jpg" alt=""/></a>
+<a class="photo_shot" href="images/gallery/IMG_0505.jpg"><img src="images/gallery/IMG_0505_thumb.jpg" alt=""/></a>
+<a class="photo_shot" href="images/gallery/IMG_0452.jpg"><img src="images/gallery/IMG_0452_thumb.jpg" alt=""/></a>
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+	/* Apply fancybox to multiple items */
+	
+	$("a.photo_shot").fancybox({
+		'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic',
+		'speedIn'		:	600, 
+		'speedOut'		:	200, 
+		'overlayShow'	:	false
+	});
+	
+});
+</script>
