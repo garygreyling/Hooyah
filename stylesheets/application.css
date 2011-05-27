@@ -14,6 +14,13 @@ body {
   font-family: sans-serif;
   background-color: #212019;
 }
+table td {
+  vertical-align: top;
+  padding: 0 20px 0 0;
+}
+table#pricing_options td {
+  width: 32%;
+}
 
 #content {
   border: 1px solid #212019;
